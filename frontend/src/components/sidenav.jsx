@@ -8,21 +8,10 @@ function Sadnav(){
             <li>Contact</li>
         </ul>
          </div>
-        <div className="space-x-10 mr-40">
-        <div className="flex items-center gap-4">
-  <button className="px-4 py-2 border-2 border-black text-black font-semibold rounded-lg hover:bg-black hover:text-purple-600 transition">
-    Log in
-  </button>
-
-  <button className="px-4 py-2 border-2 border-black text-black font-semibold rounded-lg hover:bg-black hover:text-purple-600 transition">
-    Register
-  </button>
-
-  <button className="px-4 py-2 border-2 border-black text-black font-semibold rounded-lg hover:bg-black hover:text-purple-600 transition mr-40">
-    Cart
-  </button>
-</div>
-
+        <div className="space-x-10 mr-40 bg-">
+        <button className="px-4 py-2 border-2 border-black text-black font-semibold rounded-lg hover:bg-black hover:text-purple-600 transition">log in</button>
+        <button>Register</button>
+        <button className="mr-40">Cart</button>
         </div>
    
     </div>
