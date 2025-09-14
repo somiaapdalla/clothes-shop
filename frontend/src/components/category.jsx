@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-<<<<<<< HEAD
 
 // Category images
+
+
+
 import ShirtImg from "../assets/img1.png";
 import DressImg from "../assets/img1.png";
 import JacketImg from "../assets/img1.png";
 import PantsImg from "../assets/img1.png";
-=======
 const API_URL = "http://localhost:1000/getalldocs/product"; // backend endpoint
->>>>>>> cb631bb0496b40dfda33f28432ea9e02de37b85f
+
 
 export default function CategoriesPage() {
   const [products, setProducts] = useState([]);
