@@ -7,6 +7,7 @@ import HeaderBookStore from "./components/headar";
 import Footer from "./components/footer";
 import AboutUs from "./components/about";
 import Contact from "./components/contact";
+import Product from "./components/addproduct";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/add product" element={<Product />} />
+          <Route path="/product" element={<CreateProduct />} />
 
       </Routes>
       <Footer/>

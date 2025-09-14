@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
-import Sadnav from "./sidenav";
 
 function CreateProduct() {
   const [products, setProducts] = useState([]);
@@ -34,7 +33,6 @@ function CreateProduct() {
   return (
     <div className="min-h-screen bg-gray-100 flex">
       {/* Sidebar */}
-      <Sadnav />
 
       {/* Main Content */}
       <div className="flex-1 max-w-6xl mx-auto p-6">

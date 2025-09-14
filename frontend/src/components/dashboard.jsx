@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
   const [isopen, setisopent] = useState(false);
@@ -55,12 +56,12 @@ function Dashboard() {
           </div>
 
           <div className="flex items-center gap-3 pl-5 text-2xl cursor-pointer">
-           <i className="text-white fa-brands fa-product-hunt"></i>
+        <Link to="/product">   <i className="text-white fa-brands fa-product-hunt"></i></Link>
             {isopen && <h1 className="text-white">Product</h1>}
           </div>
 
           <div className="flex items-center gap-3 pl-5 text-2xl cursor-pointer">
-            <i className="text-white fa-solid fa-plus"></i>
+          <Link to="/add product">  <i className="text-white fa-solid fa-plus"></i></Link>
             {isopen && <h1 className="text-white">Add Product</h1>}
           </div>
 
