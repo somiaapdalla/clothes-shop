@@ -4,6 +4,7 @@ import HeroImage from "../assets/img1.png";
 import CategoriesPage from "./category";
 import NewArrivals from "./newarrival";
 import ProductCards from "./productcards";
+import InfoSection from "./info";
 
 export default function Home() {
   return <div>
@@ -76,9 +77,8 @@ export default function Home() {
       <div className="absolute top-0 left-0 w-40 h-40 bg-green-100 rounded-full -translate-x-20 -translate-y-20"></div>
       <div className="absolute bottom-0 right-0 w-60 h-60 bg-green-200 rounded-full translate-x-32 translate-y-32"></div>
     </section>
-    <ProductCards />
   <CategoriesPage/> 
-  <NewArrivals />
+  <InfoSection/>
 </div>
 
 }
