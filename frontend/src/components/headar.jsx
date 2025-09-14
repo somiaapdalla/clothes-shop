@@ -11,10 +11,10 @@ function HeaderBookStore() {
 
       {/* Navigation */}
       <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-600">
-        <a href="#home" className="hover:text-green-600 transition">Home</a>
-        <a href="#categories" className="hover:text-green-600 transition">product</a>
-        <a href="#bestsellers" className="hover:text-green-600 transition">shop</a>
-        <a href="#contact" className="hover:text-green-600 transition">Contact</a>
+        <a href="/" className="hover:text-green-600 transition">Home</a>
+        <a href="#categories" className="hover:text-green-600 transition">collection</a>
+        <a href="about" className="hover:text-green-600 transition">about us</a>
+        <a href="/contact" className="hover:text-green-600 transition">Contact</a>
       </nav>
 
       {/* Right side buttons */}
