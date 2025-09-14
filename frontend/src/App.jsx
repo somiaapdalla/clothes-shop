@@ -8,6 +8,12 @@ import Footer from "./components/footer";
 import AboutUs from "./components/about";
 import Contact from "./components/contact";
 import Product from "./components/addproduct";
+import ProductCards from "./components/productcards";
+import Login from "./components/login";
+import Register from "./components/registration";
+import UpdateProduct from "./components/updateproduc";
+import CartPage from "./components/cartpage";
+import CustomerView from "./components/customerview";
 
 function App() {
   return (
@@ -22,6 +28,12 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/add product" element={<Product />} />
           <Route path="/product" element={<CreateProduct />} />
+          <Route path="/product" element={<ProductCards />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/updateproduct/:id" element={<UpdateProduct />} />
+          <Route path="/cart" element={<CartPage />} />
+          <Route path="/customer" element={<CustomerView />} />
 
       </Routes>
       <Footer/>

@@ -22,7 +22,7 @@ function CreateProduct() {
     axios
       .delete(`http://localhost:1000/delete/product/${id}`)
       .then(() => fetchProducts())
-      .catch((err) => console.error("Failed to delete product: " + err.message));
+      alert("sucessfully delete")
   };
 
   // Edit product
@@ -82,7 +82,7 @@ function CreateProduct() {
                 <td className="p-3">{product.status}</td>
                 <td className="p-3">{product.category}</td>
                 <td className="p-3 space-x-4">
-                  <button
+              <button
                     onClick={() => handleEdit(product._id)}
                     className="text-green-600 hover:text-green-800 font-semibold"
                   >

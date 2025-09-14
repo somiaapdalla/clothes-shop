@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 // Category images
 import ShirtImg from "../assets/img1.png";
 import DressImg from "../assets/img1.png";
